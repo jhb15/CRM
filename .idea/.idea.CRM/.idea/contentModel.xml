@@ -6,6 +6,12 @@
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="CRM" t="IncludeRecursive">
         <e p="CRM.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="Car.cs" t="Include" />
+          <e p="Customer.cs" t="Include" />
+          <e p="Motorcycle.cs" t="Include" />
+          <e p="Vehicle.cs" t="Include" />
+        </e>
         <e p="Program.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
