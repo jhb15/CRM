@@ -6,6 +6,8 @@
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="CRM" t="IncludeRecursive">
         <e p="CRM.csproj" t="IncludeRecursive" />
+        <e p="DataStore.cs" t="Include" />
+        <e p="MenuController.cs" t="Include" />
         <e p="Models" t="Include">
           <e p="Car.cs" t="Include" />
           <e p="Customer.cs" t="Include" />
@@ -20,6 +22,9 @@
               <e p="CRM.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
+        </e>
+        <e p="res" t="Include">
+          <e p="CustomerInformation.csv" t="Include" />
         </e>
       </e>
       <e p="CRM.sln" t="IncludeFlat" />

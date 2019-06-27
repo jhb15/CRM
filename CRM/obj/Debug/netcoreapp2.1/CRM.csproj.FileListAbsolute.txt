@@ -1,0 +1,11 @@
+/home/jhb15/RiderProjects/CRM/CRM/bin/Debug/netcoreapp2.1/CRM.deps.json
+/home/jhb15/RiderProjects/CRM/CRM/bin/Debug/netcoreapp2.1/CRM.runtimeconfig.json
+/home/jhb15/RiderProjects/CRM/CRM/bin/Debug/netcoreapp2.1/CRM.runtimeconfig.dev.json
+/home/jhb15/RiderProjects/CRM/CRM/bin/Debug/netcoreapp2.1/CRM.dll
+/home/jhb15/RiderProjects/CRM/CRM/bin/Debug/netcoreapp2.1/CRM.pdb
+/home/jhb15/RiderProjects/CRM/CRM/obj/Debug/netcoreapp2.1/CRM.csprojAssemblyReference.cache
+/home/jhb15/RiderProjects/CRM/CRM/obj/Debug/netcoreapp2.1/CRM.csproj.CoreCompileInputs.cache
+/home/jhb15/RiderProjects/CRM/CRM/obj/Debug/netcoreapp2.1/CRM.AssemblyInfoInputs.cache
+/home/jhb15/RiderProjects/CRM/CRM/obj/Debug/netcoreapp2.1/CRM.AssemblyInfo.cs
+/home/jhb15/RiderProjects/CRM/CRM/obj/Debug/netcoreapp2.1/CRM.dll
+/home/jhb15/RiderProjects/CRM/CRM/obj/Debug/netcoreapp2.1/CRM.pdb

@@ -6,7 +6,11 @@ namespace CRM
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var menContr = new MenuController();
+            
+            //TODO Load CSV
+            menContr.RunProgram();
         }
+
     }
 }
