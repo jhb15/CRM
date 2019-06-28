@@ -8,8 +8,10 @@ namespace CRM
         {
             var menContr = new MenuController();
             
-            //TODO Load CSV
-            menContr.RunProgram();
+            var dataStore = new DataStore("res/CustomerInformation.csv"); //Loads Data From CSV
+            dataStore.DisplayData();
+            
+            menContr.RunProgram(dataStore);
         }
 
     }

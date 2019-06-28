@@ -1,7 +1,14 @@
+using System.Buffers.Text;
+
 namespace CRM.Models
 {
-    public class Motocycles : Vehicle
+    public class Motorcycle : Vehicle
     {
-        public string HasHelmetStorage { get; set; } 
+        public bool HasHelmetStorage { get; set; }
+
+        public override string ToString()
+        {
+            return base.ToString() + "," + HasHelmetStorage;
+        }
     }
 }

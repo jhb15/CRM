@@ -42,7 +42,7 @@ namespace CRM
             }
         }
 
-        public void RunProgram()
+        public void RunProgram(DataStore dataStore)
         {
             MenuOption option;
 

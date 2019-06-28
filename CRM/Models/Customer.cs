@@ -4,9 +4,14 @@ namespace CRM.Models
 {
     public class Customer
     {
-        private int Id { set; get; }
-        private string Forename { set; get; }
-        private string Surname { set; get; }
-        private DateTime DateOfBirth { set; get; }
+        public int CustomerId { set; get; }
+        public string Forename { set; get; }
+        public string Surname { set; get; }
+        public DateTime DateOfBirth { set; get; }
+
+        public override string ToString()
+        {
+            return CustomerId + "," + Forename + "," + Surname + "," + DateOfBirth;
+        }
     }
 }

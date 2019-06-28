@@ -1,35 +1,28 @@
 using System;
 using System.Reflection;
 using System.Security.Cryptography;
+using CsvHelper.Configuration;
 
 namespace CRM.Models
 {
     public class Vehicle
     {
-        private int Id { get; set; } 
-        private string Manufacturer { get; set; }
-        private string Model { get; set; }
-        private string RegistrationNumber { get; set; }
-        private DateTime RegistrationDate { get; set; }
-        private int EngineSize { get; set; }
-        private Customer Owner { get; set; }
+        public int VehicleId { get; set; } 
+        public string Manufacturer { get; set; }
+        public string Model { get; set; }
+        public string RegistrationNumber { get; set; }
+        public DateTime RegistationDate { get; set; }
+        public int EngineSize { get; set; }
+        public int CustomerId { get; set; }
 
-        public Vehicle(int id, string manufacturer, string model, string registrationNumber, DateTime registrationDate,
-            int engineSize)
+        public override string ToString()
         {
-            Id = id;
-            Manufacturer = manufacturer;
-            Model = model;
-            RegistrationNumber = registrationNumber;
-            RegistrationDate = registrationDate;
-            EngineSize = engineSize;
-            Owner = null;
+            return VehicleId + "," + Manufacturer + "," + Model + "," + RegistrationNumber + "," + RegistationDate + "," + EngineSize + "," + CustomerId;
         }
-
-        public void AssignOwner(Customer owner)
-        {
-            Owner = owner;
-        }
-        
     }
+
+    /*public class VehicleMap : ClassMap<Vehicle>
+    {
+        
+    }*/
 }
