@@ -55,20 +55,16 @@ namespace CRM
                 switch (option)
                 {
                     case MenuOption.Report1:
-                        //TODO Run Report 1
-                        Console.WriteLine("\nOption Not Available " + option);
+                        ReportGenerator.ReportAll(dataStore);
                         break;
                     case MenuOption.Report2:
-                        //TODO Run Report 2
-                        Console.WriteLine("\nOption Not Available " + option);
+                        ReportGenerator.ReportCustomersByAge(dataStore, 20, 30);
                         break;
                     case MenuOption.Report3:
-                        //TODO Run Report 3
-                        Console.WriteLine("\nOption Not Available " + option);
+                        ReportGenerator.ReportVehiclesRegisteredBefore(dataStore, DateTime.Parse("01/01/2010"));
                         break;
                     case MenuOption.Report4:
-                        //TODO Run Report 4
-                        Console.WriteLine("\nOption Not Available " + option);
+                        ReportGenerator.ReportVehiclesByEngineSize(dataStore, 1100);
                         break;
                     default:
                         PrintMenuErr(option);

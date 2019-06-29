@@ -9,9 +9,21 @@ namespace CRM.Models
         public string Surname { set; get; }
         public DateTime DateOfBirth { set; get; }
 
+        public int GetAge()
+        {
+            var now = int.Parse(DateTime.Now.ToString("yyyyMMdd"));
+            var dob = int.Parse(DateOfBirth.ToString("yyyyMMdd"));
+
+            return (now - dob) / 10000;
+        }
+        
         public override string ToString()
         {
-            return CustomerId + "," + Forename + "," + Surname + "," + DateOfBirth;
+            return "CustomerId: " + CustomerId 
+                                  + ", Forename:" + Forename 
+                                  + ", Surname: " + Surname 
+                                  + ", Date of Birth: " + DateOfBirth.ToString("d") 
+                                  + ", Age: " + GetAge();
         }
     }
 }

@@ -8,7 +8,8 @@ namespace CRM.Models
 
         public override string ToString()
         {
-            return base.ToString() + "," + HasHelmetStorage;
+            return base.ToString() 
+                   + ", HasHelmetStorage: " + HasHelmetStorage;
         }
     }
 }

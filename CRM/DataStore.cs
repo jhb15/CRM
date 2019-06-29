@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.IO;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using CRM.Models;
 using CsvHelper;
 
@@ -10,8 +11,8 @@ namespace CRM
 {
     public class DataStore
     {
-        private List<Customer> _customers;
-        private List<Vehicle> _vehicles;
+        private readonly List<Customer> _customers;
+        private readonly List<Vehicle> _vehicles;
 
         public DataStore(string csvFile)
         {
@@ -26,6 +27,8 @@ namespace CRM
             _vehicles = vehicles;
         }
 
+        public List<Customer> GetCustomers() { return _customers; }
+        public List<Vehicle> GetVehicles() { return _vehicles; }
         
         private void InitFromCsv(string csvFile)
         {
