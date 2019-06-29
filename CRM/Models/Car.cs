@@ -9,7 +9,7 @@ namespace CRM.Models
         public override string ToString()
         {
             return base.ToString() 
-                   + ", InteriorColour: " + InteriorColour;
+                   + $", InteriorColour: {InteriorColour}";
         }
     }
 }

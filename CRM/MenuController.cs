@@ -26,7 +26,7 @@ namespace CRM
         private void PrintMenuErr(MenuOption opt)
         {
             var possibleOptions = string.Join(",", Enum.GetValues(typeof(MenuOption)));
-            Console.WriteLine("\nOption selected not recognised, Got: " + (char)opt + " Possible Options: " + possibleOptions);
+            Console.WriteLine($"\nOption selected not recognised, Got: {(char)opt} Possible Options: {possibleOptions}");
         }
         
         private char GetChar()
@@ -65,6 +65,8 @@ namespace CRM
                         break;
                     case MenuOption.Report4:
                         ReportGenerator.ReportVehiclesByEngineSize(dataStore, 1100);
+                        break;
+                    case MenuOption.Quit:
                         break;
                     default:
                         PrintMenuErr(option);

@@ -104,16 +104,18 @@ namespace CRM
 
         public void DisplayData()
         {
-            Console.WriteLine("#### Customers #########################");
+            Console.WriteLine("#### Records In ##########################");
+            Console.WriteLine("#### Customers");
             foreach (var customer in _customers)
             {
                 Console.WriteLine(customer);
             }
-            Console.WriteLine("#### Vehicles ##########################");
+            Console.WriteLine("#### Vehicles");
             foreach (var vehicle in _vehicles)
             {
                 Console.WriteLine(vehicle);
             }
+            Console.WriteLine("##########################################");
         }
     }
 }

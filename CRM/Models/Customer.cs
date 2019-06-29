@@ -19,11 +19,11 @@ namespace CRM.Models
         
         public override string ToString()
         {
-            return "CustomerId: " + CustomerId 
-                                  + ", Forename:" + Forename 
-                                  + ", Surname: " + Surname 
-                                  + ", Date of Birth: " + DateOfBirth.ToString("d") 
-                                  + ", Age: " + GetAge();
+            return $"CustomerId: {CustomerId}" 
+                                  + $", Forename: {Forename}" 
+                                  + $", Surname: {Surname}" 
+                                  + $", Date of Birth: {DateOfBirth:d}" 
+                                  + $", Age: {GetAge()}";
         }
     }
 }

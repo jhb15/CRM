@@ -17,13 +17,13 @@ namespace CRM.Models
 
         public override string ToString()
         {
-            return "VehicleId: " + VehicleId 
-                                 + ", Manufacturer: " + Manufacturer 
-                                 + ", Model: " + Model 
-                                 + ", RegistrationNumber: " + RegistrationNumber 
-                                 + ", RegistationDate: " + RegistationDate.ToString("d") 
-                                 + ", EngineSize: " + EngineSize 
-                                 + ", CustomerId: " + CustomerId;
+            return $"VehicleId: {VehicleId}" 
+                                 + $", Manufacturer: {Manufacturer}" 
+                                 + $", Model: {Model}" 
+                                 + $", RegistrationNumber: {RegistrationNumber}" 
+                                 + $", RegistationDate: {RegistationDate:d}" 
+                                 + $", EngineSize: {EngineSize}" 
+                                 + $", CustomerId: {CustomerId}";
         }
     }
 
