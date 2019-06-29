@@ -10,23 +10,18 @@ namespace CRM
         public static void ReportAll(DataStore ds)
         {
             Console.WriteLine("\n#### All Customers and their Vehicles Report ########################");
-            
-            var customers = ds.GetCustomers().OrderBy(c => c.Surname).ThenBy(c => c.Forename).ToList();
-            var vehicles = ds.GetVehicles().OrderBy(v => v.Manufacturer).ThenBy(v => v.Model).ToList();
-
+            var customers = ds.GetCustomers().OrderBy(c => c.Surname).ThenBy(c => c.Forename);
+            var vehicles = ds.GetVehicles().OrderBy(v => v.Manufacturer).ThenBy(v => v.Model);
             PrintCustomers(customers, vehicles);
-            
-            Console.WriteLine("#### End Report #####################################################");
+            Console.WriteLine("\n#### End Report #####################################################");
         }
 
         public static void ReportCustomersByAge(DataStore ds, int minAge, int maxAge)
         {
             Console.WriteLine($"\n#### All Customers Between {minAge}years and {maxAge}years #####################");
-            var customers = ds.GetCustomers().Where(c => c.GetAge() >= minAge).Where(c => c.GetAge() <= maxAge).ToList();
-            
+            var customers = ds.GetCustomers().Where(c => c.GetAge() >= minAge).Where(c => c.GetAge() <= maxAge);
             PrintCustomers(customers);
-            
-            Console.WriteLine("#### End Report #####################################################");
+            Console.WriteLine("\n#### End Report #####################################################");
         }
 
         public static void ReportVehiclesRegisteredBefore(DataStore ds, DateTime beforeDate)
@@ -34,7 +29,7 @@ namespace CRM
             Console.WriteLine($"\n#### All Vehicles Registered Before {beforeDate:d} #####################");
             var vehicles = ds.GetVehicles().Where(v => v.RegistationDate <= beforeDate);
             PrintVehicles(vehicles);
-            Console.WriteLine("#### End Report #####################################################");
+            Console.WriteLine("\n#### End Report #####################################################");
         }
 
         public static void ReportVehiclesByEngineSize(DataStore ds, int minSize)
@@ -42,10 +37,10 @@ namespace CRM
             Console.WriteLine($"\n#### All Vehicles with Engine Larger Than {minSize}cc ###################");
             var vehicles = ds.GetVehicles().Where(v => v.EngineSize >= minSize);
             PrintVehicles(vehicles);
-            Console.WriteLine("#### End Report #####################################################");
+            Console.WriteLine("\n#### End Report #####################################################");
         }
 
-        private static void PrintCustomers(List<Customer> customers, List<Vehicle> vehicles = null)
+        private static void PrintCustomers(IEnumerable<Customer> customers, IEnumerable<Vehicle> vehicles = null)
         {
             foreach (var customer in customers)
             {
@@ -58,7 +53,7 @@ namespace CRM
                 foreach (var cVehicle in cVehicles)
                 {
                     var type = cVehicle.GetType();
-                    var preamble = "";
+                    var preamble = "__Unknown: ";
 
                     if (type == typeof(Car)) { preamble = "__Car: "; }
                     if (type == typeof(Motorcycle)) { preamble = "__Motorcycle: "; }
@@ -73,7 +68,7 @@ namespace CRM
         {
             foreach (var vehicle in vehicles)
             {
-                Console.WriteLine(vehicle + "\n");
+                Console.WriteLine(vehicle);
             }
         }
     }
