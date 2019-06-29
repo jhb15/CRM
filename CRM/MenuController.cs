@@ -25,7 +25,8 @@ namespace CRM
 
         private void PrintMenuErr(MenuOption opt)
         {
-            //TODO 
+            var possibleOptions = string.Join(",", Enum.GetValues(typeof(MenuOption)));
+            Console.WriteLine("\nOption selected not recognised, Got: " + (char)opt + " Possible Options: " + possibleOptions);
         }
         
         private char GetChar()

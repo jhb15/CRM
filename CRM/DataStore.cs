@@ -79,7 +79,7 @@ namespace CRM
             }
         }
 
-        private void BuildVehicle(Vehicle vehicle, CsvReader csvReader)
+        private static void BuildVehicle(Vehicle vehicle, CsvReader csvReader)
         {
             vehicle.VehicleId = csvReader.GetField<int>("VehicleId");
             vehicle.Manufacturer = csvReader.GetField("Manufacturer");
@@ -91,7 +91,7 @@ namespace CRM
             vehicle.CustomerId = csvReader.GetField<int>("CustomerId");
         }
 
-        private bool BoolFromStr(string input)
+        private static bool BoolFromStr(string input)
         {
             if (input.ToUpper() == "YES") return true;
             if (input.ToUpper() == "NO") return false;
@@ -101,7 +101,6 @@ namespace CRM
 
         public void DisplayData()
         {
-            //TODO Implement Displaying all Data
             Console.WriteLine("#### Customers #########################");
             foreach (var customer in _customers)
             {
