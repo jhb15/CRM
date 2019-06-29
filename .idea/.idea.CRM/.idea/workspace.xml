@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea80f74e-8536-4b96-8419-fdd6ffb4fcf0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CRM/DataStore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/DataStore.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRM/MenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/MenuController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRM/Models/Car.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/Models/Car.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRM/Models/Customer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/Models/Customer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRM/Models/Motorcycle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/Models/Motorcycle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRM/Models/Vehicle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/Models/Vehicle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CRM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CRM/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRM/ReportGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/ReportGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRM/bin/Debug/netcoreapp2.1/CRM.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/bin/Debug/netcoreapp2.1/CRM.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRM/bin/Debug/netcoreapp2.1/CRM.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/bin/Debug/netcoreapp2.1/CRM.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRM/obj/Debug/netcoreapp2.1/CRM.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/obj/Debug/netcoreapp2.1/CRM.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRM/obj/Debug/netcoreapp2.1/CRM.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/obj/Debug/netcoreapp2.1/CRM.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRM/obj/Debug/netcoreapp2.1/CRM.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/obj/Debug/netcoreapp2.1/CRM.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CRM/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="192">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
               <folding>
                 <marker date="1561762332213" expanded="true" signature="28:375" ph="{...}" />
                 <marker date="1561762332213" expanded="true" signature="48:373" ph="{...}" />
@@ -40,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CRM/DataStore.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+            <state relative-caret-position="112">
+              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
               <folding>
                 <marker date="1561799321430" expanded="true" signature="6:179" ph="..." />
                 <marker date="1561799321430" expanded="true" signature="194:4479" ph="{...}" />
@@ -68,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CRM/MenuController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="66" column="84" lean-forward="true" selection-start-line="66" selection-start-column="84" selection-end-line="66" selection-end-column="84" />
+            <state relative-caret-position="960">
+              <caret line="66" column="84" selection-start-line="66" selection-start-column="84" selection-end-line="66" selection-end-column="84" />
               <folding>
                 <marker date="1561803788080" expanded="true" signature="28:2618" ph="{...}" />
                 <marker date="1561803788080" expanded="true" signature="50:173" ph="{...}" />
@@ -89,21 +79,21 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CRM/ReportGenerator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="60" column="70" selection-start-line="60" selection-start-column="70" selection-end-line="60" selection-end-column="70" />
+            <state relative-caret-position="528">
+              <caret line="42" column="80" lean-forward="true" selection-start-line="42" selection-start-column="80" selection-end-line="42" selection-end-column="80" />
               <folding>
-                <marker date="1561808567443" expanded="true" signature="6:50" ph="..." />
-                <marker date="1561808567443" expanded="true" signature="65:2906" ph="{...}" />
-                <marker date="1561808567443" expanded="true" signature="107:2904" ph="{...}" />
-                <marker date="1561808567443" expanded="true" signature="164:1263" ph="{...}" />
-                <marker date="1561808567443" expanded="true" signature="532:1149" ph="{...}" />
-                <marker date="1561808567443" expanded="true" signature="734:1098" ph="{...}" />
-                <marker date="1561808567443" expanded="true" signature="1350:1833" ph="{...}" />
-                <marker date="1561808567443" expanded="true" signature="1639:1719" ph="{...}" />
-                <marker date="1561808567443" expanded="true" signature="1927:2375" ph="{...}" />
-                <marker date="1561808567443" expanded="true" signature="2182:2261" ph="{...}" />
-                <marker date="1561808567443" expanded="true" signature="2457:2898" ph="{...}" />
-                <marker date="1561808567443" expanded="true" signature="2705:2784" ph="{...}" />
+                <marker date="1561828443726" expanded="true" signature="6:84" ph="..." />
+                <marker date="1561828443726" expanded="true" signature="99:3212" ph="{...}" />
+                <marker date="1561828443726" expanded="true" signature="141:3210" ph="{...}" />
+                <marker date="1561828443726" expanded="true" signature="198:712" ph="{...}" />
+                <marker date="1561828443726" expanded="true" signature="799:1228" ph="{...}" />
+                <marker date="1561828443726" expanded="true" signature="1322:1682" ph="{...}" />
+                <marker date="1561828443726" expanded="true" signature="1764:2117" ph="{...}" />
+                <marker date="1561828443726" expanded="true" signature="2218:2985" ph="{...}" />
+                <marker date="1561828443726" expanded="true" signature="2276:2975" ph="{...}" />
+                <marker date="1561828443726" expanded="true" signature="2560:2924" ph="{...}" />
+                <marker date="1561828443726" expanded="true" signature="3059:3204" ph="{...}" />
+                <marker date="1561828443726" expanded="true" signature="3115:3194" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -112,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CRM/Models/Customer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="25" column="57" lean-forward="true" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+            <state relative-caret-position="288">
+              <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
               <folding>
                 <marker date="1561808070967" expanded="true" signature="35:870" ph="{...}" />
                 <marker date="1561808070967" expanded="true" signature="63:868" ph="{...}" />
@@ -127,8 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CRM/Models/Vehicle.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="240">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <marker date="1561808142377" expanded="true" signature="6:105" ph="..." />
                 <marker date="1561808142377" expanded="true" signature="127:1113" ph="{...}" />
@@ -143,7 +133,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CRM/Models/Car.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="128">
               <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
               <folding>
                 <marker date="1561808154150" expanded="true" signature="48:305" ph="{...}" />
@@ -158,7 +148,7 @@
         <entry file="file://$PROJECT_DIR$/CRM/Models/Motorcycle.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="48">
-              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
               <folding>
                 <marker date="1561808160283" expanded="true" signature="48:316" ph="{...}" />
                 <marker date="1561808160283" expanded="true" signature="88:314" ph="{...}" />
@@ -217,24 +207,10 @@
     </navigator>
     <panes>
       <pane id="SolutionExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="CRM" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="CRM" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="CRM" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,12 +269,14 @@
       <workItem from="1561161384199" duration="6730000" />
       <workItem from="1561411012307" duration="2918000" />
       <workItem from="1561659614456" duration="6117000" />
-      <workItem from="1561794123775" duration="11472000" />
+      <workItem from="1561794123775" duration="11958000" />
+      <workItem from="1561813170857" duration="128000" />
+      <workItem from="1561814768436" duration="2310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41483000" />
+    <option name="totallyTimeSpent" value="44407000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -313,13 +291,13 @@
     <frame x="-4" y="0" width="1928" height="1039" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26947704" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27588046" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="0" weight="0.6736494" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.59316427" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.59316427" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39911798" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -391,19 +369,6 @@
           </properties>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/CRM/ReportGenerator.cs</url>
-          <line>39</line>
-          <properties documentPath="$PROJECT_DIR$/CRM/ReportGenerator.cs" initialLine="39">
-            <startOffsets>
-              <option value="1604" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1639" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -417,10 +382,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CRM/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <marker date="1561762332213" expanded="true" signature="28:375" ph="{...}" />
+            <marker date="1561762332213" expanded="true" signature="48:373" ph="{...}" />
+            <marker date="1561762332213" expanded="true" signature="94:366" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CRM/DataStore.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        <state relative-caret-position="112">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
           <folding>
             <marker date="1561799321430" expanded="true" signature="6:179" ph="..." />
             <marker date="1561799321430" expanded="true" signature="194:4479" ph="{...}" />
@@ -445,8 +422,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CRM/MenuController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="66" column="84" lean-forward="true" selection-start-line="66" selection-start-column="84" selection-end-line="66" selection-end-column="84" />
+        <state relative-caret-position="960">
+          <caret line="66" column="84" selection-start-line="66" selection-start-column="84" selection-end-line="66" selection-end-column="84" />
           <folding>
             <marker date="1561803788080" expanded="true" signature="28:2618" ph="{...}" />
             <marker date="1561803788080" expanded="true" signature="50:173" ph="{...}" />
@@ -462,22 +439,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CRM/Program.cs">
+    <entry file="file://$PROJECT_DIR$/CRM/Models/Customer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="288">
+          <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
           <folding>
-            <marker date="1561762332213" expanded="true" signature="28:375" ph="{...}" />
-            <marker date="1561762332213" expanded="true" signature="48:373" ph="{...}" />
-            <marker date="1561762332213" expanded="true" signature="94:366" ph="{...}" />
+            <marker date="1561808070967" expanded="true" signature="35:870" ph="{...}" />
+            <marker date="1561808070967" expanded="true" signature="63:868" ph="{...}" />
+            <marker date="1561808070967" expanded="true" signature="281:477" ph="{...}" />
+            <marker date="1561808070967" expanded="true" signature="528:862" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CRM/Models/Vehicle.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="240">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
             <marker date="1561808142377" expanded="true" signature="6:105" ph="..." />
             <marker date="1561808142377" expanded="true" signature="127:1113" ph="{...}" />
@@ -490,7 +468,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CRM/Models/Car.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="128">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding>
             <marker date="1561808154150" expanded="true" signature="48:305" ph="{...}" />
@@ -503,7 +481,7 @@
     <entry file="file://$PROJECT_DIR$/CRM/Models/Motorcycle.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
           <folding>
             <marker date="1561808160283" expanded="true" signature="48:316" ph="{...}" />
             <marker date="1561808160283" expanded="true" signature="88:314" ph="{...}" />
@@ -512,36 +490,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CRM/Models/Customer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="25" column="57" lean-forward="true" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
-          <folding>
-            <marker date="1561808070967" expanded="true" signature="35:870" ph="{...}" />
-            <marker date="1561808070967" expanded="true" signature="63:868" ph="{...}" />
-            <marker date="1561808070967" expanded="true" signature="281:477" ph="{...}" />
-            <marker date="1561808070967" expanded="true" signature="528:862" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CRM/ReportGenerator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="60" column="70" selection-start-line="60" selection-start-column="70" selection-end-line="60" selection-end-column="70" />
+        <state relative-caret-position="528">
+          <caret line="42" column="80" lean-forward="true" selection-start-line="42" selection-start-column="80" selection-end-line="42" selection-end-column="80" />
           <folding>
-            <marker date="1561808567443" expanded="true" signature="6:50" ph="..." />
-            <marker date="1561808567443" expanded="true" signature="65:2906" ph="{...}" />
-            <marker date="1561808567443" expanded="true" signature="107:2904" ph="{...}" />
-            <marker date="1561808567443" expanded="true" signature="164:1263" ph="{...}" />
-            <marker date="1561808567443" expanded="true" signature="532:1149" ph="{...}" />
-            <marker date="1561808567443" expanded="true" signature="734:1098" ph="{...}" />
-            <marker date="1561808567443" expanded="true" signature="1350:1833" ph="{...}" />
-            <marker date="1561808567443" expanded="true" signature="1639:1719" ph="{...}" />
-            <marker date="1561808567443" expanded="true" signature="1927:2375" ph="{...}" />
-            <marker date="1561808567443" expanded="true" signature="2182:2261" ph="{...}" />
-            <marker date="1561808567443" expanded="true" signature="2457:2898" ph="{...}" />
-            <marker date="1561808567443" expanded="true" signature="2705:2784" ph="{...}" />
+            <marker date="1561828443726" expanded="true" signature="6:84" ph="..." />
+            <marker date="1561828443726" expanded="true" signature="99:3212" ph="{...}" />
+            <marker date="1561828443726" expanded="true" signature="141:3210" ph="{...}" />
+            <marker date="1561828443726" expanded="true" signature="198:712" ph="{...}" />
+            <marker date="1561828443726" expanded="true" signature="799:1228" ph="{...}" />
+            <marker date="1561828443726" expanded="true" signature="1322:1682" ph="{...}" />
+            <marker date="1561828443726" expanded="true" signature="1764:2117" ph="{...}" />
+            <marker date="1561828443726" expanded="true" signature="2218:2985" ph="{...}" />
+            <marker date="1561828443726" expanded="true" signature="2276:2975" ph="{...}" />
+            <marker date="1561828443726" expanded="true" signature="2560:2924" ph="{...}" />
+            <marker date="1561828443726" expanded="true" signature="3059:3204" ph="{...}" />
+            <marker date="1561828443726" expanded="true" signature="3115:3194" ph="{...}" />
           </folding>
         </state>
       </provider>

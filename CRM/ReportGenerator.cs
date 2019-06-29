@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using CRM.Models;
 
@@ -10,12 +11,48 @@ namespace CRM
         {
             Console.WriteLine("\n#### All Customers and their Vehicles Report ########################");
             
-            var customers = ds.GetCustomers().OrderBy(c => c.Surname).ThenBy(c => c.Forename);
-            var vehicles = ds.GetVehicles().OrderBy(v => v.Manufacturer).ThenBy(v => v.Model);
+            var customers = ds.GetCustomers().OrderBy(c => c.Surname).ThenBy(c => c.Forename).ToList();
+            var vehicles = ds.GetVehicles().OrderBy(v => v.Manufacturer).ThenBy(v => v.Model).ToList();
 
+            PrintCustomers(customers, vehicles);
+            
+            Console.WriteLine("#### End Report #####################################################");
+        }
+
+        public static void ReportCustomersByAge(DataStore ds, int minAge, int maxAge)
+        {
+            Console.WriteLine($"\n#### All Customers Between {minAge}years and {maxAge}years #####################");
+            var customers = ds.GetCustomers().Where(c => c.GetAge() >= minAge).Where(c => c.GetAge() <= maxAge).ToList();
+            
+            PrintCustomers(customers);
+            
+            Console.WriteLine("#### End Report #####################################################");
+        }
+
+        public static void ReportVehiclesRegisteredBefore(DataStore ds, DateTime beforeDate)
+        {
+            Console.WriteLine($"\n#### All Vehicles Registered Before {beforeDate:d} #####################");
+            var vehicles = ds.GetVehicles().Where(v => v.RegistationDate <= beforeDate);
+            PrintVehicles(vehicles);
+            Console.WriteLine("#### End Report #####################################################");
+        }
+
+        public static void ReportVehiclesByEngineSize(DataStore ds, int minSize)
+        {
+            Console.WriteLine($"\n#### All Vehicles with Engine Larger Than {minSize}cc ###################");
+            var vehicles = ds.GetVehicles().Where(v => v.EngineSize >= minSize);
+            PrintVehicles(vehicles);
+            Console.WriteLine("#### End Report #####################################################");
+        }
+
+        private static void PrintCustomers(List<Customer> customers, List<Vehicle> vehicles = null)
+        {
             foreach (var customer in customers)
             {
                 Console.WriteLine(customer);
+                
+                if (vehicles == null) continue;
+                
                 var cVehicles = vehicles.Where(v => v.CustomerId == customer.CustomerId);
 
                 foreach (var cVehicle in cVehicles)
@@ -30,40 +67,14 @@ namespace CRM
                 }
                 Console.WriteLine();
             }
-            Console.WriteLine("#### End Report #####################################################");
         }
 
-        public static void ReportCustomersByAge(DataStore ds, int minAge, int maxAge)
+        private static void PrintVehicles(IEnumerable<Vehicle> vehicles)
         {
-            Console.WriteLine($"\n#### All Customers Between {minAge}years and {maxAge}years #####################");
-            var customers = ds.GetCustomers().Where(c => c.GetAge() >= minAge).Where(c => c.GetAge() <= maxAge);
-            foreach (var customer in customers)
-            {
-                Console.WriteLine(customer + "\n");
-            }
-            Console.WriteLine("#### End Report #####################################################");
-        }
-
-        public static void ReportVehiclesRegisteredBefore(DataStore ds, DateTime beforeDate)
-        {
-            Console.WriteLine($"\n#### All Vehicles Registered Before {beforeDate:d} #####################");
-            var vehicles = ds.GetVehicles().Where(v => v.RegistationDate <= beforeDate);
             foreach (var vehicle in vehicles)
             {
                 Console.WriteLine(vehicle + "\n");
             }
-            Console.WriteLine("#### End Report #####################################################");
-        }
-
-        public static void ReportVehiclesByEngineSize(DataStore ds, int minSize)
-        {
-            Console.WriteLine($"\n#### All Vehicles with Engine Larger Than {minSize}cc ###################");
-            var vehicles = ds.GetVehicles().Where(v => v.EngineSize >= minSize);
-            foreach (var vehicle in vehicles)
-            {
-                Console.WriteLine(vehicle + "\n");
-            }
-            Console.WriteLine("#### End Report #####################################################");
         }
     }
 }
