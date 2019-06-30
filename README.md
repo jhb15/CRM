@@ -4,7 +4,7 @@
 
  1. Download the .zip file for the CRM project on github, you can do that using the green
  clone or download button in the top right hand corner of the Github repo page. Or you can just
- [click here][https://github.com/jhb15/CRM/archive/master.zip].
+ [click here](https://github.com/jhb15/CRM/archive/master.zip).
  
  2. Unzip the downloaded .zip file.
 
@@ -34,4 +34,4 @@ on other distributions.
 
 #### Credits
 
-> Built using the CsvHelper package, [CsvHelper][https://joshclose.github.io/CsvHelper/]
+> Built using the CsvHelper package, [CsvHelper](https://joshclose.github.io/CsvHelper/)

@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea80f74e-8536-4b96-8419-fdd6ffb4fcf0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CRM/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRM/bin/Debug/netcoreapp2.1/CRM.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/bin/Debug/netcoreapp2.1/CRM.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRM/bin/Debug/netcoreapp2.1/CRM.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/bin/Debug/netcoreapp2.1/CRM.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRM/obj/CRM.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/obj/CRM.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRM/obj/CRM.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/obj/CRM.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRM/obj/Debug/netcoreapp2.1/CRM.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/obj/Debug/netcoreapp2.1/CRM.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRM/obj/Debug/netcoreapp2.1/CRM.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/obj/Debug/netcoreapp2.1/CRM.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRM/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRMUnitTests/obj/CRMUnitTests.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRMUnitTests/obj/CRMUnitTests.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRMUnitTests/obj/CRMUnitTests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/CRMUnitTests/obj/CRMUnitTests.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRMUnitTests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRMUnitTests/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="ea80f74e-8536-4b96-8419-fdd6ffb4fcf0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +13,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CRM/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="12" column="95" selection-start-line="12" selection-start-column="74" selection-end-line="12" selection-end-column="95" />
+            <state relative-caret-position="47">
+              <caret line="6" column="73" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="73" />
               <folding>
                 <marker date="1561916398120" expanded="true" signature="28:954" ph="{...}" />
                 <marker date="1561916398120" expanded="true" signature="48:952" ph="{...}" />
@@ -44,8 +31,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="432">
-                <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+              <first_editor relative-caret-position="440">
+                <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -221,12 +208,12 @@
       <workItem from="1561659614456" duration="6117000" />
       <workItem from="1561794123775" duration="11958000" />
       <workItem from="1561813170857" duration="128000" />
-      <workItem from="1561814768436" duration="10678000" />
+      <workItem from="1561814768436" duration="10997000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52775000" />
+    <option name="totallyTimeSpent" value="53094000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -464,8 +451,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CRM/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="12" column="95" selection-start-line="12" selection-start-column="74" selection-end-line="12" selection-end-column="95" />
+        <state relative-caret-position="47">
+          <caret line="6" column="73" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="73" />
           <folding>
             <marker date="1561916398120" expanded="true" signature="28:954" ph="{...}" />
             <marker date="1561916398120" expanded="true" signature="48:952" ph="{...}" />
@@ -480,8 +467,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="432">
-            <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+          <first_editor relative-caret-position="440">
+            <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
