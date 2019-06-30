@@ -11,3 +11,4 @@
 /home/jhb15/RiderProjects/CRM/CRMUnitTests/obj/Release/netcoreapp2.1/win10-x64/CRMUnitTests.AssemblyInfo.cs
 /home/jhb15/RiderProjects/CRM/CRMUnitTests/obj/Release/netcoreapp2.1/win10-x64/CRMUnitTests.dll
 /home/jhb15/RiderProjects/CRM/CRMUnitTests/obj/Release/netcoreapp2.1/win10-x64/CRMUnitTests.pdb
+/home/jhb15/RiderProjects/CRM/CRMUnitTests/obj/Release/netcoreapp2.1/win10-x64/CRMUnitTests.csprojAssemblyReference.cache

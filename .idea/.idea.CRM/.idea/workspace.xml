@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea80f74e-8536-4b96-8419-fdd6ffb4fcf0" name="Default Changelist" comment="" />
+    <list default="true" id="ea80f74e-8536-4b96-8419-fdd6ffb4fcf0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/CRM/bin/Release/netcoreapp2.1/ubuntu.16.10-x64/CRM.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/bin/Release/netcoreapp2.1/ubuntu.16.10-x64/CRM.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/bin/Release/netcoreapp2.1/ubuntu.16.10-x64/CRM.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/bin/Release/netcoreapp2.1/ubuntu.16.10-x64/CRM.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/bin/Release/netcoreapp2.1/ubuntu.16.10-x64/publish/CRM.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/bin/Release/netcoreapp2.1/ubuntu.16.10-x64/publish/CRM.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/bin/Release/netcoreapp2.1/ubuntu.16.10-x64/publish/CRM.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/bin/Release/netcoreapp2.1/ubuntu.16.10-x64/publish/CRM.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/obj/CRM.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/obj/CRM.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/obj/Release/netcoreapp2.1/ubuntu.16.10-x64/CRM.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/obj/Release/netcoreapp2.1/ubuntu.16.10-x64/CRM.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/obj/Release/netcoreapp2.1/ubuntu.16.10-x64/CRM.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/obj/Release/netcoreapp2.1/ubuntu.16.10-x64/CRM.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRMUnitTests/obj/CRMUnitTests.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRMUnitTests/obj/CRMUnitTests.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRMUnitTests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRMUnitTests/obj/project.assets.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +42,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="440">
-                <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+              <first_editor relative-caret-position="373">
+                <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -208,12 +219,12 @@
       <workItem from="1561659614456" duration="6117000" />
       <workItem from="1561794123775" duration="11958000" />
       <workItem from="1561813170857" duration="128000" />
-      <workItem from="1561814768436" duration="10997000" />
+      <workItem from="1561814768436" duration="11881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53094000" />
+    <option name="totallyTimeSpent" value="53978000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -226,7 +237,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1928" height="1039" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13553895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -234,7 +244,7 @@
       <window_info anchor="bottom" id="Build" order="0" weight="0.6736494" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.22050716" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.22050716" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39911798" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -245,7 +255,7 @@
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Unit Tests" order="13" />
-      <window_info anchor="bottom" id="Terminal" order="14" weight="0.3296582" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="14" visible="true" weight="0.3296582" />
       <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -467,8 +477,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="440">
-            <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <first_editor relative-caret-position="373">
+            <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
