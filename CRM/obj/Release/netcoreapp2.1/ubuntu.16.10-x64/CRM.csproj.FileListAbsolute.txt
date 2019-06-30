@@ -1,0 +1,14 @@
+/home/jhb15/RiderProjects/CRM/CRM/bin/Release/netcoreapp2.1/ubuntu.16.10-x64/libhostpolicy.so
+/home/jhb15/RiderProjects/CRM/CRM/bin/Release/netcoreapp2.1/ubuntu.16.10-x64/libhostfxr.so
+/home/jhb15/RiderProjects/CRM/CRM/bin/Release/netcoreapp2.1/ubuntu.16.10-x64/CRM
+/home/jhb15/RiderProjects/CRM/CRM/bin/Release/netcoreapp2.1/ubuntu.16.10-x64/CRM.deps.json
+/home/jhb15/RiderProjects/CRM/CRM/bin/Release/netcoreapp2.1/ubuntu.16.10-x64/CRM.runtimeconfig.json
+/home/jhb15/RiderProjects/CRM/CRM/bin/Release/netcoreapp2.1/ubuntu.16.10-x64/CRM.runtimeconfig.dev.json
+/home/jhb15/RiderProjects/CRM/CRM/bin/Release/netcoreapp2.1/ubuntu.16.10-x64/CRM.dll
+/home/jhb15/RiderProjects/CRM/CRM/bin/Release/netcoreapp2.1/ubuntu.16.10-x64/CRM.pdb
+/home/jhb15/RiderProjects/CRM/CRM/obj/Release/netcoreapp2.1/ubuntu.16.10-x64/CRM.csprojAssemblyReference.cache
+/home/jhb15/RiderProjects/CRM/CRM/obj/Release/netcoreapp2.1/ubuntu.16.10-x64/CRM.csproj.CoreCompileInputs.cache
+/home/jhb15/RiderProjects/CRM/CRM/obj/Release/netcoreapp2.1/ubuntu.16.10-x64/CRM.AssemblyInfoInputs.cache
+/home/jhb15/RiderProjects/CRM/CRM/obj/Release/netcoreapp2.1/ubuntu.16.10-x64/CRM.AssemblyInfo.cs
+/home/jhb15/RiderProjects/CRM/CRM/obj/Release/netcoreapp2.1/ubuntu.16.10-x64/CRM.dll
+/home/jhb15/RiderProjects/CRM/CRM/obj/Release/netcoreapp2.1/ubuntu.16.10-x64/CRM.pdb

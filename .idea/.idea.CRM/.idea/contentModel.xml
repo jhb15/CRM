@@ -29,6 +29,7 @@
         </e>
         <e p="res" t="Include">
           <e p="CustomerInformation.csv" t="Include" />
+          <e p="CustomerInformationExtended.csv" t="Include" />
         </e>
       </e>
       <e p="CRM.sln" t="IncludeFlat" />

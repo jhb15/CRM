@@ -1,0 +1,13 @@
+/home/jhb15/RiderProjects/CRM/CRMUnitTests/bin/Release/netcoreapp2.1/win10-x64/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/home/jhb15/RiderProjects/CRM/CRMUnitTests/bin/Release/netcoreapp2.1/win10-x64/xunit.runner.reporters.netcoreapp10.dll
+/home/jhb15/RiderProjects/CRM/CRMUnitTests/bin/Release/netcoreapp2.1/win10-x64/xunit.runner.utility.netcoreapp10.dll
+/home/jhb15/RiderProjects/CRM/CRMUnitTests/bin/Release/netcoreapp2.1/win10-x64/CRMUnitTests.deps.json
+/home/jhb15/RiderProjects/CRM/CRMUnitTests/bin/Release/netcoreapp2.1/win10-x64/CRMUnitTests.runtimeconfig.json
+/home/jhb15/RiderProjects/CRM/CRMUnitTests/bin/Release/netcoreapp2.1/win10-x64/CRMUnitTests.runtimeconfig.dev.json
+/home/jhb15/RiderProjects/CRM/CRMUnitTests/bin/Release/netcoreapp2.1/win10-x64/CRMUnitTests.dll
+/home/jhb15/RiderProjects/CRM/CRMUnitTests/bin/Release/netcoreapp2.1/win10-x64/CRMUnitTests.pdb
+/home/jhb15/RiderProjects/CRM/CRMUnitTests/obj/Release/netcoreapp2.1/win10-x64/CRMUnitTests.csproj.CoreCompileInputs.cache
+/home/jhb15/RiderProjects/CRM/CRMUnitTests/obj/Release/netcoreapp2.1/win10-x64/CRMUnitTests.AssemblyInfoInputs.cache
+/home/jhb15/RiderProjects/CRM/CRMUnitTests/obj/Release/netcoreapp2.1/win10-x64/CRMUnitTests.AssemblyInfo.cs
+/home/jhb15/RiderProjects/CRM/CRMUnitTests/obj/Release/netcoreapp2.1/win10-x64/CRMUnitTests.dll
+/home/jhb15/RiderProjects/CRM/CRMUnitTests/obj/Release/netcoreapp2.1/win10-x64/CRMUnitTests.pdb
